@@ -1,31 +1,30 @@
-# React & Tailwind CSS Starter Pack
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
 
-## Usage
+# Random GIF React App
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+This project allows users to fetch random GIFs from the GIPHY API and display them in a React app.
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## Key Features
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+- Uses the Axios library to make HTTP requests to the GIPHY API.
+- Clicking a button fetches a random GIF from the API and displays it.
+- search functionality to fetch GIFs by keyword.
+- Smooth loading animation while GIF is being fetched.
+- Responsive design adapts layout for mobile and desktop.
+- Clean and simple UI focused on displaying the GIFs.
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## Getting Started
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+1. Clone the repo.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the dev server.
+4. View it at http://localhost:3000.
 
-## Contributing
+## Technology Used
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+- React - For building the UI components
+- Axios - For making HTTP requests to the GIPHY API 
+- Tailwind CSS - Styling and responsive design
+  
+
+Let me know if you need any other details about the project!
